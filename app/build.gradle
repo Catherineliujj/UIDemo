@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.mding"
+        applicationId "com.mdings.mding"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -37,8 +37,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // QMUI
-    implementation 'com.qmuiteam:qmui:1.2.0'
-    implementation project(path: ':arch')
+//    implementation 'com.qmuiteam:qmui:1.2.0'
+    implementation project(':arch')
+    implementation project(':qmui')
 
     // butterknife
     implementation 'com.jakewharton:butterknife:8.8.1'

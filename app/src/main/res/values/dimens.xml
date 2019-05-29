@@ -16,7 +16,7 @@
 -->
 
 <resources>
-    <dimen name="home_tab_height">49dp</dimen>
+    <dimen name="home_tab_height">55dp</dimen>
     <dimen name="common_content_spacing">16dp</dimen>
 
     <!-- ListView -->

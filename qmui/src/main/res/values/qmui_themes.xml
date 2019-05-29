@@ -63,7 +63,7 @@
         <!--**********************************************
         *                qmui common color               *
         **********************************************-->
-        <item name="chatf_app_theme">@color/chatf_app_theme</item>
+        <!--<item name="chatf_app_theme">@color/chatf_app_theme</item>-->
         <item name="qmui_config_color_blue">@color/qmui_config_color_blue</item>
         <item name="qmui_config_color_red">@color/qmui_config_color_red</item>
         <item name="qmui_config_color_separator">@color/qmui_config_color_separator</item>

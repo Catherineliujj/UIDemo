@@ -1,24 +1,30 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="QMUI.Compat.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <!--<style name="AppTheme" parent="com.qmuiteam.qmui.R.qmui_themes_compat.QMUI.Compat.NoActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
 
-        <!--<item name="QMUITopBarStyle">@style/QDTopBar</item>-->
+    <!-- 分割线 -->
+    <style name="style_height_line">
+        <item name="android:layout_width">@dimen/divider_height</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/greye5</item>
     </style>
-
-    <style name="QDTopBar" parent="QMUI.TopBar">
-        <item name="qmui_topbar_bg_color">?attr/app_primary_color</item>
-        <item name="qmui_topbar_title_color">@color/qmui_config_color_white</item>
-        <item name="qmui_topbar_subtitle_color">@color/qmui_config_color_white</item>
-        <item name="qmui_topbar_text_btn_color_state_list">@color/s_topbar_btn_color</item>
-        <item name="qmui_topbar_height">48dp</item>
-        <item name="qmui_topbar_image_btn_height">48dp</item>
+    <style name="style_wei_line">
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/greye5</item>
     </style>
-
+    <style name="style_cus_linear_layout_line">
+        <item name="android:layout_height">@dimen/dp0_3</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/dp40</item>
+        <item name="android:background">@color/greye5</item>
+    </style>
     <style name="style_wei_line_pop">
         <item name="android:layout_height">@dimen/divider_height</item>
         <item name="android:layout_width">match_parent</item>
@@ -26,4 +32,23 @@
         <item name="android:layout_marginRight">@dimen/dp15</item>
         <item name="android:background">@color/greye5</item>
     </style>
+    <style name="style_chat_pop_line">
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/greye5</item>
+    </style>
+
+    <!--消息页左滑删除-->
+    <declare-styleable name="BGASwipeItemLayout">
+        <attr name="bga_sil_swipeDirection" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="bga_sil_bottomMode" format="enum">
+            <enum name="pullOut" value="0" />
+            <enum name="layDown" value="1" />
+        </attr>
+        <attr name="bga_sil_springDistance" format="dimension" />
+        <attr name="bga_sil_swipeAble" format="boolean" />
+    </declare-styleable>
 </resources>

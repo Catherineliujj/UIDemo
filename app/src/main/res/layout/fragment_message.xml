@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context=".main_code.about_fragment.MessageFragment">
 
-    <!--<com.mding.about_custom.about_top_bar.FragmentTopBarLayout-->
+    <!--<com.mdings.mding.about_custom.about_top_bar.FragmentTopBarLayout-->
         <!--android:id="@+id/fg_top_bar"-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->

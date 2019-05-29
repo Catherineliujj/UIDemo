@@ -72,6 +72,7 @@ public class QMUITopBarLayout extends FrameLayout {
         mTopBarBgColor = array.getColor(R.styleable.QMUITopBar_qmui_topbar_bg_color, Color.WHITE);
         boolean hasSeparator = array.getBoolean(R.styleable.QMUITopBar_qmui_topbar_need_separator, true);
 
+
         // 构造一个透明的背景且无分隔线的TopBar，背景与分隔线有QMUITopBarLayout控制
         mTopBar = new QMUITopBar(context, true);
         mTopBar.getCommonFieldFormTypedArray(context, array);

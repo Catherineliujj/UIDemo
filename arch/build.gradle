@@ -25,9 +25,10 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     compileOnly "com.android.support:design:$supportVersion"
-    compileOnly project(':qmui')
+    implementation project(':qmui')
+//    implementation 'com.qmuiteam:qmui:1.2.0'
 }
 
 // deploy

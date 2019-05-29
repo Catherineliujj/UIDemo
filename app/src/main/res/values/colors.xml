@@ -34,6 +34,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="text_red">#FC0544</color>
     <color name="text_enabled">#FFFFFFFF</color>
     <color name="text_disabled">#90c9f2</color>
     <color name="app_theme">#1edec9</color>

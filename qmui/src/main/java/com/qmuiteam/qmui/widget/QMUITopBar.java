@@ -457,7 +457,7 @@ public class QMUITopBar extends RelativeLayout {
     }
 
     /**
-     * 生成一个 LayoutParams，当把 Button addView 到 TopBar 时，使用这个 LayouyParams
+     * 生成一个 LayoutParams，当把 Button addView 到 TopBar 时，使用这个 LayoutParams
      */
     public LayoutParams generateTopBarImageButtonLayoutParams() {
         LayoutParams lp = new LayoutParams(mTopBarImageBtnWidth, mTopBarImageBtnHeight);
