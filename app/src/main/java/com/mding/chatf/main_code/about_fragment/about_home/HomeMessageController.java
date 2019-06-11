@@ -16,7 +16,7 @@ import butterknife.ButterKnife;
  * 更改时间：
  * 修改备注：
  */
-public class HomeMessageController extends HomeController{
+public class HomeMessageController extends HomeController {
 
     public HomeMessageController(Context context) {
         super(context);

@@ -138,7 +138,7 @@ public abstract class HomeController extends QMUIWindowInsetLayout {
             ArrayAdapter adapter = new ArrayAdapter<>(getContext(), R.layout.simple_list_item, data);
 
             mListPopup = new QMUIListPopup(getContext(), QMUIPopup.DIRECTION_NONE, adapter);
-            mListPopup.create(QMUIDisplayHelper.dp2px(getContext(), 150), QMUIDisplayHelper.dp2px(getContext(), 200), new AdapterView.OnItemClickListener() {
+            mListPopup.create(QMUIDisplayHelper.dp2px(getContext(), 130), QMUIDisplayHelper.dp2px(getContext(), 200), new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                     switch (i){

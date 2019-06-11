@@ -186,12 +186,14 @@ public class HomeFragment extends BaseFragment {
         mPages.put(Pager.PERSONAL, homePersonalController);
 
         mViewPager.setAdapter(mPagerAdapter);
+        // 禁止ViewPager的左右滑动
         mViewPager.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 return true;
             }
         });
+
         mTabSegment.setupWithViewPager(mViewPager, false);
     }
 
