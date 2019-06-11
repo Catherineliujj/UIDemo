@@ -13,7 +13,7 @@ import com.qmuiteam.qmui.arch.QMUISwipeBackActivityManager;
  * 作者：ljj
  * 创建时间：2019/5/27
  * 修改人：
- * 更改时间：
+ * 更改时间：2019/6/11  15:30
  * 修改备注：
  */
 public class MyApplication extends Application {
