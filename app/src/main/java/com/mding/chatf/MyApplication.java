@@ -27,7 +27,6 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
         QMUISwipeBackActivityManager.init(this);
         AppManager.getAppManager().addActivity((AppCompatActivity) getContext());
     }
